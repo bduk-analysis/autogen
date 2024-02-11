@@ -17,7 +17,7 @@ WORKDIR /home/autogen
 # ENV OPENAI_API_KEY="{OpenAI-API-Key}"
 
 # Clone the AutoGen repository
-RUN git clone https://github.com/microsoft/autogen.git /home/autogen/autogen
+RUN git clone https://github.com/bduk-analysis/autogen.git /home/autogen/autogen
 WORKDIR /home/autogen/autogen
 
 # Install AutoGen in editable mode with extra components
